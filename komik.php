@@ -49,7 +49,7 @@
 <body>
     <div class="comic-container">
         <?php
-            $url = "https://web.api-kyouka.my.id/api/anime/komiku/latest?apikey=kyouka_admin";
+            $url = "https://web.api-kyouka.my.id/api/anime/komiku/latest?apikey=youkey";
             $response = file_get_contents($url);
             $data = json_decode($response, true);
 
